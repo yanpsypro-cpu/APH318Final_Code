@@ -1,11 +1,35 @@
-# APH318FINAL
+# APH318 Final Project
 
-This repository contains the code for our paper.
+## 📂 Files Included
+This repository contains the following files for the final project:
 
-## Dataset
-Please download the **"Diabetes 130-US hospitals for years 1999-2008"** dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008). 
+* **`APH318Final.ipynb`**: The main Jupyter Notebook containing the code for data analysis, feature engineering, and model training.
+* **`APH318Final.pdf`**: The final report with our findings and conclusions.
+* **`diabetic_data.csv`**: The dataset used for this analysis.
 
-To run the code, extract the ZIP file and place `diabetic_data.csv` in this folder.
+---
 
-## How to run
-Open `APH318Final.ipynb` in Jupyter Notebook and run all cells.
+## ⚠️ Note on Viewing Files
+**If you are unable to view the `.ipynb` or `.pdf` files directly on GitHub (e.g., seeing an "Unable to render" error):**
+
+1. Please click the **"Download"** button (top right of the file viewer) to save the file and view it locally.
+2. Alternatively, you can view the notebook code online using [nbviewer](https://nbviewer.org/).
+
+---
+
+## 🛠️ How to Run
+
+To run the code locally, please follow these steps:
+
+1. **Download the Repository**:
+   Click on the green `Code` button and select `Download ZIP`, then extract the files.
+
+2. **Data Setup (Important)**:
+   Please ensure you have the `diabetic_data.csv` file ready.
+   * **Location**: Move the `diabetic_data.csv` file to your **Desktop**.
+   *(Note: The code is currently set to read the dataset from the Desktop path. If you place it elsewhere, please update the file path in the notebook accordingly.)*
+
+3. **Execution**:
+   * Open **Jupyter Notebook**.
+   * Open the `APH318Final.ipynb` file.
+   * Go to the menu bar and select **Cell** -> **Run All**.
